@@ -23,3 +23,5 @@ if (perc_sconto != 0) {
 else if (perc_sconto == 0) {
     console.log(totale);
 }
+// recupero l'elemento html che contiene la stringa generata e gli assegno il valore della riga 11
+document.getElementById("totale").innerText = totale;
