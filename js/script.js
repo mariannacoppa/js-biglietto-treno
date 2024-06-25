@@ -20,3 +20,6 @@ if (perc_sconto != 0) {
     prezzo = prezzo * perc_sconto / 100;
     console.log(prezzo);
 }
+if (perc_sconto = 0) {
+    console.log(prezzo);
+}
