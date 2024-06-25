@@ -7,4 +7,16 @@ let eta = prompt("Inserisci la tua età");
 console.log("età");
 // Creo variabile a cui assegno come valore il prodotto tra il valore km ed il valore età
 let prezzo = (km * 0.21);
-console.log(prezzo);
+let perc_sconto = 0;
+// let totale = prezzo - sconto;
+// programmo gli sconti
+if (eta < 18) {
+    perc_sconto = 20;
+}
+else if (eta > 64) {
+    perc_sconto = 40;
+}
+if (perc_sconto != 0) {
+    prezzo = prezzo * perc_sconto / 100;
+    console.log(prezzo);
+}
