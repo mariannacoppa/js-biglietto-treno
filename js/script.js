@@ -9,6 +9,8 @@ console.log("età");
 let prezzo = (km * 0.21);
 let perc_sconto = 0;
 let totale = prezzo * perc_sconto / 100;
+// arrotondo il valore alla seconda cifra decimale
+let finale = totale.toFixed(2);
 // programmo gli sconti
 if (eta < 18) {
     perc_sconto = 20;
@@ -24,4 +26,4 @@ else if (perc_sconto == 0) {
     console.log(totale);
 }
 // recupero l'elemento html che contiene la stringa generata e gli assegno il valore della riga 11
-document.getElementById("totale").innerText = totale;
+document.getElementById("finale").innerText = finale;
