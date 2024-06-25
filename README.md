@@ -14,3 +14,5 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 7 : sconto del 40% sul prezzo
 8 ELSE Non si ha diritto ad alcuno sconto
 9 Arrotondo il valore del punto 3 alla seconda cifra decimale
+10 Creo nell'html un elemento (con id) che conterrà la stringa generata
+11 recupero l'elemento html che contiene la stringa generata e gli assegno il valore del punto 3
